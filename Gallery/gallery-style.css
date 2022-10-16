@@ -1,0 +1,74 @@
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bar {
+    list-style-type: none;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: darkcyan;
+  }
+.bar-element{
+    float: left;
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    min-width: 180px;
+    font-weight: bold;
+}
+.photos{
+    display: flex;
+}
+#p1{
+    position: absolute;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50%;
+    height: 50%;
+}
+#p1:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+#p2{
+    position: absolute;
+    left: 50%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50%;
+    height: 50%;
+}
+#p2:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+#p3{
+    position: absolute;
+    top: 50%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50%;
+    height: 50%;
+}
+#p3:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+#p4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50%;
+    height: 50%;
+}
+#p4:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
