@@ -1,1 +1,1 @@
-# maghazada.github.io
+# https://maghazada.github.io/
