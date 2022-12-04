@@ -22,7 +22,7 @@ body{
     justify-content: center;
 }
 
-.buttton{
+button{
     margin: 0.5em;
     border-radius: 50%;
     border: none;
